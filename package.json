@@ -1,0 +1,32 @@
+{
+    "name": "django-theme",
+    "displayName": "Django-Theme",
+    "description": "Django's theme",
+    "publisher": "DamienDarko",
+    "version": "1.0.0",
+    "engines": {
+        "vscode": "^1.55.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": ""
+    },
+    "keywords": [
+        "theme",
+        "dark theme",
+        "django",
+        "django theme"
+    ],
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Django Theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Django Theme-color-theme.json"
+            }
+        ]
+    }
+}
